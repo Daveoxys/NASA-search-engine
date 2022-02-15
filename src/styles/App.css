@@ -1,0 +1,24 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-color: blue;
+  background-color: #eb333d;
+  animation-name: ball-bounce;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+  animation-direction: alternate;
+}
+
+.nasa-logo {
+  margin: auto;
+  width: 500px;
+  height: 300px;
+}
+
+@media screen and (min-width: 1024px) {
+  .nasa-logo {
+    width: 30%;
+  }
+}
