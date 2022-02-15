@@ -3,12 +3,6 @@
   flex-direction: column;
   text-align: center;
   border-color: blue;
-  background-color: #eb333d;
-  animation-name: ball-bounce;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-delay: 2s;
-  animation-direction: alternate;
 }
 
 .nasa-logo {

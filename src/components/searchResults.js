@@ -6,7 +6,7 @@ const SearchResults = ({ results }) => {
   if (!results.length) {
     return (
       <p>
-        We've searched the entirity of an ever expanding space and found 0
+        We've searched the entirity of an ever expanding universe and found 0
         results!
       </p>
     );

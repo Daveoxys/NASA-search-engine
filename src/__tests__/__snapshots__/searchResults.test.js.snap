@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchResults It renders images 1`] = `
+<DocumentFragment>
+  <div
+    class="search-results"
+  >
+    <img
+      alt="spaceImage"
+      class="search-results__image"
+      src="moon"
+    />
+    <img
+      alt="spaceImage"
+      class="search-results__image"
+      src="earth"
+    />
+    <img
+      alt="spaceImage"
+      class="search-results__image"
+      src="stars"
+    />
+  </div>
+</DocumentFragment>
+`;
