@@ -1,12 +1,14 @@
 import React, { render, screen } from "@testing-library/react";
 import Search from "../components/Search";
-import setSearchResults from "../components/App";
 
 describe("Search", () => {
-  const { asFragment } = render(<Search setSearchResults={setSearchResults} />);
   const validProps = {
     setSearchResults: jest.fn(),
   };
+  const { asFragment } = render(
+    <Search setSearchResults={validProps.setSearchResults} />
+  );
+
   it("renders correctly", () => {
     expect(asFragment()).toMatchSnapshot();
   });
