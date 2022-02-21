@@ -3,6 +3,7 @@ import SearchResults from "../components/searchResults";
 
 describe("SearchResults", () => {
   const validProps = ["moon", "earth", "stars"];
+
   test("It renders images", () => {
     const { asFragment } = render(<SearchResults results={validProps} />);
     expect(asFragment()).toMatchSnapshot();

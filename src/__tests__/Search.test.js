@@ -15,6 +15,6 @@ describe("Search", () => {
     render(<Search setSearchResults={validProps.setSearchResults} />);
     const buttonElement = screen.getByText("Search");
     expect(buttonElement).toBeInTheDocument();
-    expect(buttonElement).toHaveClass("search-b");
+    expect(buttonElement).toHaveClass("search-button");
   });
 });

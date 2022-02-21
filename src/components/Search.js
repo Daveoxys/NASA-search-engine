@@ -17,9 +17,8 @@ const Search = ({ setSearchResults }) => {
           className="search-input"
           type="text"
           onChange={(e) => setValue(e.target.value)}
-        />{" "}
-        <br /> <br />
-        <button className="search-b" type="submit">
+        />
+        <button className="search-button" type="submit">
           Search
         </button>
       </form>

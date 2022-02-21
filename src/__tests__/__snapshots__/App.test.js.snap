@@ -3,7 +3,7 @@
 exports[`App renders correctly 1`] = `
 <DocumentFragment>
   <div
-    class="App"
+    class="app"
   >
     <img
       alt="nasaLogo"
@@ -20,22 +20,18 @@ exports[`App renders correctly 1`] = `
           class="search-input"
           type="text"
         />
-         
-        <br />
-         
-        <br />
         <button
-          class="search-b"
+          class="search-button"
           type="submit"
         >
           Search
         </button>
       </form>
     </div>
-    <br />
-    <br />
-    <p>
-      We've searched the entirity of an ever expanding universe and found 0 results!
+    <p
+      class="error-message"
+    >
+      We've searched the entirety of an ever expanding universe and found 0 results!
     </p>
   </div>
 </DocumentFragment>

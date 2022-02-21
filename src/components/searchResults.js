@@ -1,12 +1,11 @@
 import propTypes from "prop-types";
-import React from "react";
 import "../styles/searchResults.css";
 
 const SearchResults = ({ results }) => {
   if (!results.length) {
     return (
-      <p>
-        We've searched the entirity of an ever expanding universe and found 0
+      <p className="error-message">
+        We've searched the entirety of an ever expanding universe and found 0
         results!
       </p>
     );

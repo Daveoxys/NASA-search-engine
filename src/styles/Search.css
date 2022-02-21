@@ -8,11 +8,10 @@
   border: 3px solid rgb(1, 1, 75);
 }
 
-.search-form {
+.search-button {
   margin: auto;
-}
-
-.search-b {
+  margin-top: 9px;
   border-radius: 6px;
-  border: 3px solid rgb(1, 1, 75);
+  border: 2px solid rgb(1, 1, 75);
+  display: block;
 }

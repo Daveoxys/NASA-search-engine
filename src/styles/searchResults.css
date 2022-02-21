@@ -3,8 +3,8 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  flex-direction: row;
-  margin-bottom: 25px;
+
+  margin-bottom: 40px;
 }
 
 .search-results__image {
@@ -14,6 +14,10 @@
   border: 3px solid rgb(1, 1, 75);
   border-radius: 15px;
   cursor: pointer;
+}
+
+.search-results {
+  margin-top: 40px;
 }
 
 @media screen and (min-width: 768px) {
@@ -28,8 +32,5 @@
     margin: 5px;
     height: 400px;
     width: 25%;
-  }
-  .search-results {
-    margin-top: 50px;
   }
 }
